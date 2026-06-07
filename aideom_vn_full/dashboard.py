@@ -1,4 +1,13 @@
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
 
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+from modules import run_m1, run_m2, run_m3, run_m4, run_m5, so_sanh_kich_ban
 import streamlit as st
 import pandas as pd
 import numpy as np
